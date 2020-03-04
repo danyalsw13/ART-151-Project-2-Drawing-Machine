@@ -103,7 +103,7 @@ function lines () {
     //  background(10, 10); // translucent background (creates trails)
 
        // make a x and y grid of ellipses
-       if (mouseIsPressed){
+       if !(mouseIsPressed){
        for (let x = 0; x <= width; x = x + 30) {
          for (let y = 0; y <= height; y = y + 30) {
            // starting point of each circle depends on mouse position
